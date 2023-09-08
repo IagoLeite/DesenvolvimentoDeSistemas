@@ -1,0 +1,40 @@
+Caso de Uso: Realizar Compra Online
+
+Descrição:
+Este caso de uso permite que os clientes façam compras online em um site de comércio eletrônico. Os clientes podem selecionar produtos, adicioná-los ao carrinho de compras, fornecer informações de pagamento e concluir a compra.
+
+Ator Principal:
+Cliente
+
+Pré-condições:
+
+O cliente está autenticado no sistema.
+O cliente tem um carrinho de compras com itens selecionados.
+Fluxo Básico:
+
+O cliente navega pelo catálogo de produtos e seleciona um ou mais itens.
+O cliente adiciona os itens selecionados ao carrinho de compras.
+O sistema exibe o resumo do carrinho de compras com os itens selecionados e o total.
+O cliente revisa o carrinho de compras e faz ajustes, se necessário.
+O cliente inicia o processo de checkout.
+O cliente fornece informações de entrega, incluindo endereço de entrega e método de envio desejado.
+O cliente fornece informações de pagamento, incluindo número do cartão de crédito, data de validade e código de segurança.
+O sistema verifica as informações de pagamento.
+O sistema confirma a compra e exibe um recibo de compra com os detalhes da transação.
+O cliente recebe uma confirmação por email com os detalhes da compra.
+Fluxos Alternativos:
+
+Passo 8a: Se as informações de pagamento forem inválidas, o sistema exibirá uma mensagem de erro e solicitará que o cliente corrija as informações.
+Passo 10a: Se o email de confirmação não puder ser enviado, o sistema exibirá uma mensagem de erro, mas a compra ainda será concluída.
+Pós-condições:
+
+A compra é registrada no sistema.
+O estoque de produtos é atualizado.
+O cliente recebe um email de confirmação da compra.
+Requisitos Especiais:
+
+O sistema deve ser capaz de lidar com diferentes métodos de pagamento, como cartões de crédito, PayPal, etc.
+Pontos de Extensão:
+
+Esse caso de uso pode ser estendido para incluir a funcionalidade de aplicação de códigos de desconto.
+Esse caso de uso pode ser estendido para fornecer um histórico de pedidos ao cliente.
